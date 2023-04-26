@@ -3,11 +3,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-.header-page {
-    background-color: #ffdead; 
-    color: #ffdead; 
-    padding: 10px; 
-  }
 .homebtn{
     display: inline-block;
 }
@@ -39,4 +34,8 @@
     -moz-box-shadow:0 3px 10px 0 #CCC;
     -webkit-box-shadow:0 3px 10px 0 #ccc;
     text-shadow:0px 0px 5px #fff;
+}
+.darkmode{
+    display: block;
+    text-align: right;
 }
