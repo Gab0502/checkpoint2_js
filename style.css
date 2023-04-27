@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --corprincipal:#ffdead;
-    --corsegunda:green;
-    --corterceira:black
-}
-
 .header-page {
     background-color: #ffdead; 
     color: #ffdead; 
@@ -61,5 +55,5 @@
 
 
 .footer{
-    text-align: center;
+text-align: center;
 }
