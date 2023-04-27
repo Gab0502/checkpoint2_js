@@ -35,4 +35,25 @@
 .bg-image-blank{
     background-color: #ffdead;
 }
+.bg-image-blank2{
+    background-color:#ffe8c7;
+}
 
+
+.foto-redonda1{
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
+    align-items: left;
+}
+.foto-redonda2{
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
+    align-items: right;
+}
+
+
+.footer{
+    text-align: center;
+}
