@@ -6,6 +6,6 @@ function trocar(cor) {
 }
 
 function trocar2(cor){
-  const bgImageBlank2 = document.querySelector('.bg-image-blank2');
-  bgImageBlank2.style.backgroundColor = cor;
+  const bgImageBlankalt = document.querySelector('.bg-image-blankalt');
+  bgImageBlankalt.style.backgroundColor = cor;
 }

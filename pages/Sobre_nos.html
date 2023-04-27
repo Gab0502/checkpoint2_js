@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/lettering.css"/>
 </head>
 <body>
-    <header class="header-page" style="vertical-align: middle;">
+<header class="header-page" style="vertical-align: middle;">
     <a href="/index.html" class="homebtn"><img src="/imagens/logotipovinicola.png" width="50" height="50" style="vertical-align: middle"></a>
     <nav class="menu">
         <li>
@@ -24,14 +24,15 @@
                 <a href="/pages/quiz.html" class="btn">Quiz De Vinhos</a>
             </ul>
         </li>
-        <div class="darkmode">
-            <input type="button" value="N" class="cor" onclick="trocar('#FFDEAD')" >
-            <input type="button" value="G" class="cor" onclick="trocar('#008000'); trocar2('#008000')"/>
-            <input type="button" value="DG" class="cor" onclick="trocar('#51F792')" />
-            <script src="/darkmode.js"></script>
-        </div>    
     </nav>
-    <div class="container bg-image-blank2">
+    <div class="darkmode">
+        <input type="button" value="N" class="cor" onclick="trocar('#FFDEAD'); trocar2('purple')" />
+        <input type="button" value="G" class="cor" onclick="trocar('#008000')" />
+        <input type="button" value="DG" class="cor" onclick="trocar('#51F792')" />
+        <script src="/darkmode.js"></script>
+    </div>    
+</header>
+    <div class="container bg-image-blankalt">
         <h1>Bem-vindo à nossa vinícola!</h1>
         <p><br><br></p>
         <table  >
@@ -65,7 +66,7 @@
             </tr>
         </table>
     </div>
-    </header>
+    
     <footer>
         <p>@2023 todos direitos reservados</p>
     </footer>
