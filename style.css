@@ -52,6 +52,12 @@
     height: 200px;
     align-items: right;
 }
+.foto-redonda3{
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
+    align-items: middle;
+}
 
 
 .footer{
