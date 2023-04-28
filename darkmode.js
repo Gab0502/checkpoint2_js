@@ -11,3 +11,17 @@ function trocar2(cor){
 }
 
 oi
+oi
+
+function validar() {
+  let nome = document.getElementById("nome").value
+  let telefone = document.getElementById("telefone").value
+  let email = document.getElementById("email").value
+
+  if (nome == "" || telefone == "" || email == "") {
+    alert('Preencha os campos')
+  } else {
+    alert('Acesso Permitido')
+    window.open('/index.html');
+  }
+}

@@ -58,3 +58,20 @@
 .footer{
 text-align: center;
 }
+#textbox{
+    align-items: center;
+    justify-content: center;
+    background-color:#ffe8c7;
+    margin: top;
+}
+.form-cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#ffe8c7;
+}
+body{
+    background-color:#ffe8c7;
+}
