@@ -8,6 +8,7 @@
     background-color: #ffdead; 
     color: #ffdead; 
     padding: 10px; 
+    border: 1px solid black
 }
 
 .container {
@@ -29,7 +30,7 @@
 .bg-image-blank{
     background-color: #ffdead;
 }
-.bg-image-blank2{
+.bg-image-blankalt{
     background-color:#ffe8c7;
 }
 

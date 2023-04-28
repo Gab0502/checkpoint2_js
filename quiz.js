@@ -119,13 +119,13 @@ else if(resp10=="c"){
 
 //Resultados
 if (branco>rose && branco>tinto){
-    window.location.href = "pages/quizresbranco.html";
+    window.location.href = "/pages/quizresbranco.html";
 }
 
 else if (rose>branco && rose>tinto){
-    window.location.href = "pages/quizresrose.html";
+    window.location.href = "/pages/quizresrose.html";
 }
 
 else{
-    window.location.href = "pages/quizrestinto.html";
+    window.location.href = "/pages/quizrestinto.html";
 }
