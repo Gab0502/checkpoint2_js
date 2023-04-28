@@ -9,3 +9,5 @@ function trocar2(cor){
   const bgImageBlankalt = document.querySelector('.bg-image-blankalt');
   bgImageBlankalt.style.backgroundColor = cor;
 }
+
+oi
