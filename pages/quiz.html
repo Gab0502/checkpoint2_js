@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VinhaCity</title>
+    <title id="page">VinhaCity</title>
     <link rel="stylesheet" href="/style.css"/>
     <link rel="stylesheet" href="/menu.css"/>
     <link rel="stylesheet" href="/lettering.css"/>
@@ -28,8 +28,12 @@
             <input type="button" value="N" class="cor" onclick="trocar('#FFDEAD')">
             <input type="button" value="G" class="cor" onclick="trocar('#008000')" />
             <input type="button" value="DG" class="cor" onclick="trocar('#51F792')" />
-            <script src="/darkmode.js"></script>
         </div>    
-        <script src="/quiz.js"></script>
     </nav>
     </header>
+    <div class="container bg-image-blank">
+       <center> <h1>Vamos começar o quiz?</h1></center>
+        <input type="button" class="btn" value="Vamos começar?" id="quiz" onclick="quiz()">
+    </div>
+    <script src="/darkmode.js"></script>
+</body>
